@@ -144,7 +144,7 @@ bool makeNextGeneration(bool** current, bool** next, int rows, int cols)
 int main()
 {
     std::string filename;
-    std::cout << "Enter input file name: ";
+    std::cout << "Enter input file path: ";
     std::cin >> filename;
 
     int rows = 0, cols = 0;
